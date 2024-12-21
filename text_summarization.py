@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get HuggingFace token from environment
-HuggingFaceApi = st.secrets('HF_TOKEN')
+HuggingFaceApi = st.secrets['HF_TOKEN']
 
 # Function to generate the response
 def generate_response(txt):
